@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 void ucgenOrNot() {
     float a,b,c,P;
