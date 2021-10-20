@@ -9,7 +9,7 @@ void ucgenOrNot() {
     scanf("%f",&b);
     printf("Input third number: ");
     scanf("%f",&c);
-    if (abs(a-c) < b && b < a+c)
+    if (a+c < b && b+a < c && c+b < a)
     {
         P = a + b + c;
         printf("\nPerimeter = %f", P);
